@@ -1,9 +1,9 @@
-package modelo
+package br.com.alura.bytebank.modelo
 
-import modelo.Conta
-
-class ContaCorrente(titular: String, numero: Int)
-    : Conta(titular, numero) {
+class ContaCorrente(titular: Cliente, numero: Int)
+    : Conta(
+    titular,
+    numero) {
 
 
      override fun saca(valor: Double) {

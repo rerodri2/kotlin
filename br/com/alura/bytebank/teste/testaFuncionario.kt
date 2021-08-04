@@ -1,7 +1,7 @@
-import modelo.Analista
-import modelo.Calculadora
-import modelo.Diretor
-import modelo.Gerente
+import br.com.alura.bytebank.modelo.Analista
+import br.com.alura.bytebank.modelo.Calculadora
+import br.com.alura.bytebank.modelo.Diretor
+import br.com.alura.bytebank.modelo.Gerente
 
 fun testaFuncionario() {
     println("Bem-vindo ao Bytebank")

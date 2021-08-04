@@ -1,0 +1,18 @@
+
+
+
+
+fun main() {
+    testaContasDiferentes()
+
+
+
+
+
+
+}
+
+
+
+
+

@@ -1,7 +1,7 @@
-package modelo
+package br.com.alura.bytebank.modelo
 
 abstract class Conta(
-    var titular:String, var numero: Int){
+    var titular:Cliente, var numero: Int){
     var salod = 0.0
         protected set
 
