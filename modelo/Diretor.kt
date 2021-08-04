@@ -1,3 +1,5 @@
+package modelo
+
 class Diretor(
      nome: String,
      cpf: String,
@@ -5,7 +7,7 @@ class Diretor(
      senha: Int,
     val plf:Double
 
-):FuncionarioAdmin(
+): FuncionarioAdmin(
     nome = nome,
     cpf = cpf,
     salario = salario,

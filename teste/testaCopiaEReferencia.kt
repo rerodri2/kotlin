@@ -1,3 +1,6 @@
+import modelo.ContaCorrente
+import modelo.ContaPoupanca
+
 fun testaCopiaEReferencia(){
     val numeroX = 10
     var numeroY = numeroX

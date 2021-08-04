@@ -1,3 +1,8 @@
+import modelo.Analista
+import modelo.Calculadora
+import modelo.Diretor
+import modelo.Gerente
+
 fun testaFuncionario() {
     println("Bem-vindo ao Bytebank")
     val alex = Analista(

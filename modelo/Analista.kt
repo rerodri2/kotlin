@@ -1,9 +1,11 @@
+package modelo
+
 class Analista(
      nome: String,
      cpf: String,
      salario: Double
 
-):Funcionario(
+): Funcionario(
     nome = nome,
     cpf = cpf,
     salario = salario
